@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: white;
+  background: linear-gradient(to bottom right, #1C3763, #BB3B56);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 { 
+  font-family: "Noto Serif", serif;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #6C324F;
+}
+
+a:focus {
+  background: #392A40;
+}
+
+a:hover {
+  background: #392A40;
+  color:white;
+}
+
+a:active {
+  background: #3862AF;
+  color:white;
+}
+
+input[type="email"],input[type="password"]
+{
+  background: transparent;
+  border: 2px solid white;
+  color:white;
+}
+
+input[type="email"]:focus, input[type="password"]:focus
+{
+  background: transparent;
+  border: 2px solid blue;
+  color:white;
+}
+
+input[type="email"]:focus::placeholder, input[type="password"]:focus::placeholder
+{
+  color: transparent;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #1c3763;
+  border: none;
+  cursor: pointer;
+}
+
+.bg {
+  background-image: url("../images/userx2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+  letter-spacing:2px;
+  font-family: "Titillium Web", serif;
+}
